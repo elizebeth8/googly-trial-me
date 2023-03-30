@@ -19,7 +19,10 @@ class _GalleryState extends State<Gallery> {
 
     return Scaffold(
         appBar: AppBar(
-            title: Center(child: Text("Choose your city")),
+            title: Center(child: Text("Choose your city",style: TextStyle(
+              fontFamily: 'alkatra',
+              fontSize: 50
+            ),)),
             backgroundColor: Colors.green,
             actions: <Widget>[
               Row(
