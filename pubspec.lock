@@ -70,6 +70,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.1"
+  flutter_rating_bar:
+    dependency: "direct main"
+    description:
+      name: flutter_rating_bar
+      sha256: "4818e240f9a869af70cfc6f9c5b97f53163b95ae183ec01034d0b89a34326d09"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.2.0+1"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -83,6 +91,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "10.4.0"
+  hovering:
+    dependency: "direct main"
+    description:
+      name: hovering
+      sha256: "0df77800487be6d29c8687fb775f53e1b308988c6e63a6a9c579cec701fbfe76"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.4"
   js:
     dependency: transitive
     description:
@@ -194,3 +210,4 @@ packages:
     version: "2.1.4"
 sdks:
   dart: ">=2.19.2 <3.0.0"
+  flutter: ">=1.17.0"
