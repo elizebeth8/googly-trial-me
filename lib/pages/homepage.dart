@@ -121,7 +121,7 @@ class _HomepageState extends State<Homepage> {
                 padding: EdgeInsets.all(30),
                 child: Text(
                   'Welcome to our waste management platform! We\'re here to help cities and communities tackle their waste management challenges, by providing a centralized hub for information, resources, and collaboration.',
-                  style: TextStyle(fontSize: 25),
+                  style: TextStyle(fontSize: 25,fontFamily: 'roboto mono'),
                 )),
             Padding(
               padding: const EdgeInsets.all(30),
@@ -129,21 +129,21 @@ class _HomepageState extends State<Homepage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'Sustainable development goals(SDG)',
-                    style: TextStyle(fontSize: 30,color: Colors.green),
+                    'SUSTAINABLE DEVELOPMENT GOALS(SDG)',
+                    style: TextStyle(fontSize: 30,color: Colors.green,fontFamily: 'alkatra'),
                   ),
                   SizedBox(
                     height: 20,
                   ),
                   Text(
                     'The Sustainable Development Goals (SDGs) aim to transform our world. They are a call to action to end poverty and inequality, protect the planet, and ensure that all people enjoy health, justice and prosperity.',
-                    style: TextStyle(fontSize: 21),
+                    style: TextStyle(fontSize: 21,fontFamily: 'alkatra',),
                   ),
                   SizedBox(
                     height: 40,
                   ),
                   Text('Goal 11 - SUSTAINABLE CITIES AND COMMUNITIES',
-                      style: TextStyle(fontSize: 30,color: Colors.green)),
+                      style: TextStyle(fontSize: 30,color: Colors.green,)),
                   SizedBox(
                     height: 20,
                   ),

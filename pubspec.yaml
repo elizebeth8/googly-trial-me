@@ -81,7 +81,11 @@ flutter:
   fonts:
      - family: alkatra
        fonts:
+         - asset: assets/fonts/alkatra/Alkatra-Regular.ttf
          - asset: assets/fonts/alkatra/Alkatra-Bold.ttf
+     - family: roboto mono
+       fonts:
+         - asset: assets/fonts/roboto mono/RobotoMono-Italic.ttf
   # fonts:
   #   - family: Schyler
   #     fonts:
