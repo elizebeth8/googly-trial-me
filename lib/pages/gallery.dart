@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hovering/hovering.dart';
-import 'package:flutter_rating_bar/flutter_rating_bar.dart';
+// import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
 class Gallery extends StatefulWidget {
   const Gallery({super.key});
@@ -69,20 +69,20 @@ class _GalleryState extends State<Gallery> {
                                           fontSize: 20),
                                     ),
                                   )),
-                              Text("Rating:",
-                                  style: TextStyle(
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.w200)),
-                              RatingBarIndicator(
-                                rating: 2.75,
-                                itemBuilder: (context, index) => Icon(
-                                  Icons.star,
-                                  color: Colors.amber,
-                                ),
-                                itemCount: 5,
-                                itemSize: 50.0,
-                                direction: Axis.horizontal,
-                              ),
+                              // Text("Rating:",
+                              //     style: TextStyle(
+                              //         fontSize: 20,
+                              //         fontWeight: FontWeight.w200)),
+                              // RatingBarIndicator(
+                              //   rating: 2.75,
+                              //   itemBuilder: (context, index) => Icon(
+                              //     Icons.star,
+                              //     color: Colors.amber,
+                              //   ),
+                              //   itemCount: 5,
+                              //   itemSize: 50.0,
+                              //   direction: Axis.horizontal,
+                              // ),
                             ])),
                         HoverCrossFadeWidget(
                           duration: Duration(milliseconds: 300),
@@ -105,19 +105,19 @@ class _GalleryState extends State<Gallery> {
                                       fontWeight: FontWeight.bold,
                                       fontSize: 20),
                                 ))),
-                            Text("Rating:",
-                                style: TextStyle(
-                                    fontSize: 20, fontWeight: FontWeight.w200)),
-                            RatingBarIndicator(
-                              rating: 2.75,
-                              itemBuilder: (context, index) => Icon(
-                                Icons.star,
-                                color: Colors.amber,
-                              ),
-                              itemCount: 5,
-                              itemSize: 50.0,
-                              direction: Axis.horizontal,
-                            ),
+                            // Text("Rating:",
+                            //     style: TextStyle(
+                            //         fontSize: 20, fontWeight: FontWeight.w200)),
+                            // RatingBarIndicator(
+                            //   rating: 2.75,
+                            //   itemBuilder: (context, index) => Icon(
+                            //     Icons.star,
+                            //     color: Colors.amber,
+                            //   ),
+                            //   itemCount: 5,
+                            //   itemSize: 50.0,
+                            //   direction: Axis.horizontal,
+                            // ),
                           ]),
                         ),
                       ]),
@@ -147,20 +147,20 @@ class _GalleryState extends State<Gallery> {
                                         fontSize: 20,
                                         fontWeight: FontWeight.bold),
                                   ))),
-                              Text("Rating:",
-                                  style: TextStyle(
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.w200)),
-                              RatingBarIndicator(
-                                rating: 2.75,
-                                itemBuilder: (context, index) => Icon(
-                                  Icons.star,
-                                  color: Colors.amber,
-                                ),
-                                itemCount: 5,
-                                itemSize: 50.0,
-                                direction: Axis.horizontal,
-                              ),
+                              // Text("Rating:",
+                              //     style: TextStyle(
+                              //         fontSize: 20,
+                              //         fontWeight: FontWeight.w200)),
+                              // RatingBarIndicator(
+                              //   rating: 2.75,
+                              //   itemBuilder: (context, index) => Icon(
+                              //     Icons.star,
+                              //     color: Colors.amber,
+                              //   ),
+                              //   itemCount: 5,
+                              //   itemSize: 50.0,
+                              //   direction: Axis.horizontal,
+                              // ),
                             ])),
                         HoverCrossFadeWidget(
                             duration: Duration(milliseconds: 300),
@@ -183,20 +183,20 @@ class _GalleryState extends State<Gallery> {
                                         fontWeight: FontWeight.bold,
                                         fontSize: 20),
                                   ))),
-                              Text("Rating:",
-                                  style: TextStyle(
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.w200)),
-                              RatingBarIndicator(
-                                rating: 2.75,
-                                itemBuilder: (context, index) => Icon(
-                                  Icons.star,
-                                  color: Colors.amber,
-                                ),
-                                itemCount: 5,
-                                itemSize: 50.0,
-                                direction: Axis.horizontal,
-                              ),
+                              // Text("Rating:",
+                              //     style: TextStyle(
+                              //         fontSize: 20,
+                              //         fontWeight: FontWeight.w200)),
+                              // RatingBarIndicator(
+                              //   rating: 2.75,
+                              //   itemBuilder: (context, index) => Icon(
+                              //     Icons.star,
+                              //     color: Colors.amber,
+                              //   ),
+                              //   itemCount: 5,
+                              //   itemSize: 50.0,
+                              //   direction: Axis.horizontal,
+                              // ),
                             ])),
                       ]),
                   SizedBox(height: 100),
@@ -224,16 +224,16 @@ class _GalleryState extends State<Gallery> {
                                         fontWeight: FontWeight.bold,
                                         fontSize: 20),
                                   ))),
-                              RatingBarIndicator(
-                                rating: 2.75,
-                                itemBuilder: (context, index) => Icon(
-                                  Icons.star,
-                                  color: Colors.amber,
-                                ),
-                                itemCount: 5,
-                                itemSize: 50.0,
-                                direction: Axis.horizontal,
-                              ),
+                              // RatingBarIndicator(
+                              //   rating: 2.75,
+                              //   itemBuilder: (context, index) => Icon(
+                              //     Icons.star,
+                              //     color: Colors.amber,
+                              //   ),
+                              //   itemCount: 5,
+                              //   itemSize: 50.0,
+                              //   direction: Axis.horizontal,
+                              // ),
                             ])),
                         HoverCrossFadeWidget(
                             duration: Duration(milliseconds: 300),
@@ -257,16 +257,16 @@ class _GalleryState extends State<Gallery> {
                                         fontWeight: FontWeight.bold,
                                         fontSize: 20),
                                   ))),
-                              RatingBarIndicator(
-                                rating: 2.75,
-                                itemBuilder: (context, index) => Icon(
-                                  Icons.star,
-                                  color: Colors.amber,
-                                ),
-                                itemCount: 5,
-                                itemSize: 50.0,
-                                direction: Axis.horizontal,
-                              ),
+                              // RatingBarIndicator(
+                              //   rating: 2.75,
+                              //   itemBuilder: (context, index) => Icon(
+                              //     Icons.star,
+                              //     color: Colors.amber,
+                              //   ),
+                              //   itemCount: 5,
+                              //   itemSize: 50.0,
+                              //   direction: Axis.horizontal,
+                              // ),
                             ])),
                       ]),
                   SizedBox(height: 100),
@@ -295,16 +295,16 @@ class _GalleryState extends State<Gallery> {
                                         fontWeight: FontWeight.bold,
                                         fontSize: 20),
                                   ))),
-                              RatingBarIndicator(
-                                rating: 2.75,
-                                itemBuilder: (context, index) => Icon(
-                                  Icons.star,
-                                  color: Colors.amber,
-                                ),
-                                itemCount: 5,
-                                itemSize: 50.0,
-                                direction: Axis.horizontal,
-                              ),
+                              // RatingBarIndicator(
+                              //   rating: 2.75,
+                              //   itemBuilder: (context, index) => Icon(
+                              //     Icons.star,
+                              //     color: Colors.amber,
+                              //   ),
+                              //   itemCount: 5,
+                              //   itemSize: 50.0,
+                              //   direction: Axis.horizontal,
+                              // ),
                             ])),
                         HoverCrossFadeWidget(
                             duration: Duration(milliseconds: 300),
@@ -330,16 +330,16 @@ class _GalleryState extends State<Gallery> {
                                         fontWeight: FontWeight.bold,
                                         fontSize: 20),
                                   ))),
-                              RatingBarIndicator(
-                                rating: 2.75,
-                                itemBuilder: (context, index) => Icon(
-                                  Icons.star,
-                                  color: Colors.amber,
-                                ),
-                                itemCount: 5,
-                                itemSize: 50.0,
-                                direction: Axis.horizontal,
-                              ),
+                              // RatingBarIndicator(
+                              //   rating: 2.75,
+                              //   itemBuilder: (context, index) => Icon(
+                              //     Icons.star,
+                              //     color: Colors.amber,
+                              //   ),
+                              //   itemCount: 5,
+                              //   itemSize: 50.0,
+                              //   direction: Axis.horizontal,
+                              // ),
                             ])),
                       ]),
                 ])))));

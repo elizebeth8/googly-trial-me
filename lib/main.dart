@@ -1,3 +1,4 @@
+import 'package:ecoconnect/pages/aboutus.dart';
 import 'package:ecoconnect/pages/homepage.dart';
 import 'package:flutter/material.dart';
 import 'package:ecoconnect/pages/gallery.dart';
@@ -18,7 +19,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Gallery(),
+      home: AboutUsPage(),
     );
   }
 }
