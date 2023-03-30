@@ -41,7 +41,16 @@ class _HomepageState extends State<Homepage> {
                       child: Text(value),
                     );
                   }).toList(),
-                  onChanged: (_) {},
+                  onChanged: (String? newValue) {
+                    switch(newValue)
+                    {
+                      case 'About us':Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) =>  AboutUsPage()),
+                      );
+                      break;
+                    }
+                  },
                   icon: Icon(
                     Icons.menu,
                     color: Colors.black,
@@ -121,7 +130,7 @@ class _HomepageState extends State<Homepage> {
                 children: [
                   Text(
                     'Sustainable development goals(SDG)',
-                    style: TextStyle(fontSize: 30),
+                    style: TextStyle(fontSize: 30,color: Colors.green),
                   ),
                   SizedBox(
                     height: 20,
@@ -134,7 +143,7 @@ class _HomepageState extends State<Homepage> {
                     height: 40,
                   ),
                   Text('Goal 11 - SUSTAINABLE CITIES AND COMMUNITIES',
-                      style: TextStyle(fontSize: 30)),
+                      style: TextStyle(fontSize: 30,color: Colors.green)),
                   SizedBox(
                     height: 20,
                   ),
@@ -146,8 +155,9 @@ class _HomepageState extends State<Homepage> {
               ),
             ),
             SizedBox(
-              height: 40,
+              height: 30,
             ),
+           
             Container(
               padding: EdgeInsets.all(30),
               decoration: BoxDecoration(
