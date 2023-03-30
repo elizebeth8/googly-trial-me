@@ -1,3 +1,4 @@
+import 'package:ecoconnect/pages/aboutus.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -37,12 +38,18 @@ class Homepage extends StatelessWidget {
                     Icons.menu,
                     color: Colors.black,
                     size: 30,
-                  )),
+                  )
+                  ),
               SizedBox(
                 width: 50,
               ),
               IconButton(
-                  onPressed: () {},
+                  onPressed: () {
+                     Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => AboutUsPage()),
+                      );
+                  },
                   tooltip: 'Login',
                   icon: Icon(
                     Icons.person,
