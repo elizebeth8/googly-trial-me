@@ -1,10 +1,18 @@
+//import 'package:ecoconnect/pages/aboutus.dart';
 import 'package:ecoconnect/pages/aboutus.dart';
+import 'package:ecoconnect/pages/gallery.dart';
+
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-class Homepage extends StatelessWidget {
+class Homepage extends StatefulWidget {
   const Homepage({super.key});
 
+  @override
+  State<Homepage> createState() => _HomepageState();
+}
+
+class _HomepageState extends State<Homepage> {
   @override
   Widget build(BuildContext context) {
     // const List<String> list = <String>['One', 'Two', 'Three', 'Four'];
@@ -19,7 +27,7 @@ class Homepage extends StatelessWidget {
                   tooltip: 'Search',
                   icon: Icon(
                     Icons.search,
-                    color: Colors.white,
+                    color: Colors.black,
                     size: 30,
                   )),
               SizedBox(
@@ -47,7 +55,7 @@ class Homepage extends StatelessWidget {
                   onPressed: () {
                      Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => AboutUsPage()),
+                      MaterialPageRoute(builder: (context) =>  AboutUsPage()),
                       );
                   },
                   tooltip: 'Login',
